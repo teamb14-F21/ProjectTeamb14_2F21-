@@ -14,55 +14,91 @@
       "!type": "External",
       "file": [
         "forms",
-        "Login",
+        "NewAccount",
         "Elements",
-        "lblLogin.json"
+        "lblLoginCopy.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "Login",
+        "NewAccount",
         "Elements",
-        "inptUsername.json"
+        "inptFirstName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "Login",
+        "NewAccount",
         "Elements",
-        "inptPassword.json"
+        "inptLastName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "Login",
+        "NewAccount",
         "Elements",
-        "btnLogin.json"
+        "inptStreet.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "Login",
+        "NewAccount",
         "Elements",
-        "btnNewAccount.json"
+        "inptCity.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "NewAccount",
+        "Elements",
+        "inptZipcode.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "NewAccount",
+        "Elements",
+        "inptNewUsername.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "NewAccount",
+        "Elements",
+        "inptNewPassword.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "NewAccount",
+        "Elements",
+        "btnCreate.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 460,
-  "designWidth": 320,
+  "designHeight": 0,
+  "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "Login",
+  "id": "NewAccount",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
