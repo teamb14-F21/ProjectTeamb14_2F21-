@@ -16,7 +16,7 @@
         "forms",
         "NewAccount",
         "Elements",
-        "lblLoginCopy.json"
+        "lblNewAccount.json"
       ]
     },
     {
@@ -90,14 +90,23 @@
         "Elements",
         "btnCreate.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "NewAccount",
+        "Elements",
+        "lblErrors.json"
+      ]
     }
   ],
   "class": "",
-  "designHeight": 0,
+  "designHeight": 800,
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "800",
   "id": "NewAccount",
   "language": "JavaScript",
   "left": "0",
