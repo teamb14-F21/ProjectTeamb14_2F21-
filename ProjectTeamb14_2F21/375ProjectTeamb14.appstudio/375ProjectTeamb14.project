@@ -34,6 +34,22 @@
             "NewAccount",
             "NewAccount.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "ListView",
+            "ListView.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Weather",
+            "Weather.json"
+          ]
         }
       ],
       "configxml": null,
@@ -55,7 +71,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Login",
+      "firstform": "ListView",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
