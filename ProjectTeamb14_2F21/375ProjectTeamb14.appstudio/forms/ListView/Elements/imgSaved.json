@@ -17,7 +17,7 @@
   "height": "65",
   "hidden": "",
   "id": "imgSaved",
-  "left": 0,
+  "left": 4,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -46,8 +46,8 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "/Users/rachelday/Desktop/Creighton/BIA375/ProjectTeamb14_2F21--main/Images/SavedEvents.png",
+  "src": "Images/SavedEvents.png",
   "style": "",
-  "top": 5,
+  "top": 11,
   "width": "65"
 }

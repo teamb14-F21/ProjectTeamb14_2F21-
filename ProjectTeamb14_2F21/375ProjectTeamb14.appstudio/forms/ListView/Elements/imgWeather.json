@@ -23,7 +23,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "weatherApp.onclick()",
+  "onclick": "imgWeather.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",
@@ -46,7 +46,7 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "/Users/rachelday/Desktop/Creighton/BIA375/ProjectTeamb14_2F21--main/Images/Weather3.png",
+  "src": "Images/Weather3.png",
   "style": "",
   "top": 5,
   "width": "65"

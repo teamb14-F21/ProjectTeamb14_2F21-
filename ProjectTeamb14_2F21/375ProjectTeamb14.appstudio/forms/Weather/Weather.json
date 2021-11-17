@@ -9,7 +9,98 @@
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgblackBorder1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeather1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgMap1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgListView1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblSaved1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgSaved1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblListView1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblMapView1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblWeather1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "Slider11.json"
+      ]
+    }
+  ],
   "class": "",
   "designHeight": 0,
   "designWidth": 0,
@@ -24,7 +115,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "ListView.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",

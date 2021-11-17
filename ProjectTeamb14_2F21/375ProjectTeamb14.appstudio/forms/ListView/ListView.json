@@ -115,7 +115,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "ListView.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
