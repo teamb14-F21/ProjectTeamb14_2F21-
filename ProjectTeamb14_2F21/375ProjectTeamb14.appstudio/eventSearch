@@ -1,0 +1,34 @@
+let requestURL = "https://app.ticketmaster.com/discovery/v2/events.json?type=event&apikey=6srAspQWjAkzZgAU0FLhjV1P6ziz0Aq2"
+
+
+function onXHRLoad() {
+
+  let message = ""
+
+  let apiData = JSON.parse(this.responseText)
+
+for (i = 0; i <= apiData.results.length - 1; i++) {
+
+  console.log(`${apiData.results[i].name}`)
+
+message = message + apiData.results[i].name + "\n"
+
+}
+
+}
+
+
+
+function callAPI(URL) {
+
+  var xhttp = new XMLHttpRequest();
+
+
+xhttp.addEventListener('load', onXHRLoad)
+xhttp.send()
+}
+
+btnEvents.onclick=function(){
+  callAPI(requestURL)
+  }
+  
