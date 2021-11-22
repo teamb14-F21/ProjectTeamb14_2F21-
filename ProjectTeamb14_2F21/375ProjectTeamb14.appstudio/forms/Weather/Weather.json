@@ -97,7 +97,187 @@
         "forms",
         "Weather",
         "Elements",
-        "Slider11.json"
+        "lblLocation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeatherIcon.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblDate1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeatherIcon1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeatherIcon2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeatherIcon3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "imgWeatherIcon4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblDate2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblDate3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblDate4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblDate5.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblCondition.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblCondition1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblCondition2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblCondition3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblCondition4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblTemp.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblTemp1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblTemp2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblTemp3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Weather",
+        "Elements",
+        "lblTemp4.json"
       ]
     }
   ],
@@ -115,7 +295,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "ListView.onshow()",
+  "onshow": "Weather.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",

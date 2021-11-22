@@ -97,13 +97,229 @@
         "forms",
         "ListView",
         "Elements",
-        "Slider1.json"
+        "sldrInterest.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "sldrInterest1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "sldrInterest2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgResult.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgResult1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgResult2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "slctFilters.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblBusName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblBusName1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblBusName2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblLocation1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblLocation2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblLocation3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblHours.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblHours1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblHours2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgStar.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgStar1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "imgStar2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblRating.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblRating1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblRating2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblInterestLevel.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblInterestLevel1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblInterestLevel2.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 480,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
