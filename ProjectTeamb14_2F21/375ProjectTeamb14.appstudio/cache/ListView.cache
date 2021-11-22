@@ -1,4 +1,8 @@
 
+
+
+
+
 ListView.onshow=function(){
   lblSaved.className = ""
   lblSaved.style.color = "#FFFFFF"
@@ -48,4 +52,28 @@ imgWeather.onclick=function(){
 }
 lblWeather.onclick=function(){
   ChangeForm(Weather)
+}
+
+imgListView.onclick=function(){
+  ChangeForm(ListView)
+}
+
+lblListView.onclick=function(){
+    ChangeForm(ListView)
+}
+
+imgSaved.onclick=function(){
+  ChangeForm(Saved)
+}
+
+lblSaved.onclick=function(){
+  ChangeForm(Saved)
+}
+
+imgMap.onclick=function(){
+  ChangeForm(MapView)
+}
+
+lblMapView.onclick=function(){
+  ChangeForm(MapView)
 }

@@ -25,7 +25,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "",
+  "onclick": "lblListView.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",

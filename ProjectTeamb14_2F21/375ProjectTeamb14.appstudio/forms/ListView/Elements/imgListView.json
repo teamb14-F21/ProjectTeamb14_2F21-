@@ -23,7 +23,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "",
+  "onclick": "imgListView.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",

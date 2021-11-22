@@ -1,4 +1,7 @@
 
+
+
+
 Weather.onshow=function(){
   lblSaved1.className = ""
   lblSaved1.style.color = "#FFFFFF"
@@ -39,14 +42,45 @@ Weather.onshow=function(){
     lblTemp4.className = ""
   lblTemp4.style.color = "#000000"
 }
-/*
+
+imgWeather1.onclick=function(){
+  ChangeForm(Weather)
+}
+lblWeather1.onclick=function(){
+  ChangeForm(Weather)
+}
+
+imgListView1.onclick=function(){
+  ChangeForm(ListView)
+}
+
+lblListView1.onclick=function(){
+    ChangeForm(ListView)
+}
+
+imgSaved1.onclick=function(){
+  ChangeForm(Saved)
+}
+
+lblSaved1.onclick=function(){
+  ChangeForm(Saved)
+}
+
+imgMap1.onclick=function(){
+  ChangeForm(MapView)
+}
+
+lblMapView1.onclick=function(){
+  ChangeForm(MapView)
+}
+
+
 let weather = ""
 const URL = "http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131"
 
-
 // API call that returns api data
 const getData = () => 
-       fetch(URL).then(response => response.json()).then(({results}) => results)
+       fetch(URL).then(response => response.json()).then(({weather}) => weather)
 
 // create a function to put the api data into the projects' global variable 'weather'
  function freeData(apiData) {

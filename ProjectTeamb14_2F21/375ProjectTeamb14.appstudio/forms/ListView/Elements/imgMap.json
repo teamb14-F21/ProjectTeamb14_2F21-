@@ -23,7 +23,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "",
+  "onclick": "imgMap.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",

@@ -50,6 +50,22 @@
             "Weather",
             "Weather.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Saved",
+            "Saved.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "MapView",
+            "MapView.json"
+          ]
         }
       ],
       "configxml": null,
