@@ -1,6 +1,6 @@
 
 
-
+sldrInterest = [] 
 
 
 ListView.onshow=function(){
@@ -76,4 +76,9 @@ imgMap.onclick=function(){
 
 lblMapView.onclick=function(){
   ChangeForm(MapView)
+}
+
+
+sldrInterest.ontouchend=function(){
+    ChangeForm(Saved)
 }

@@ -35,11 +35,11 @@ Weather.onshow=function(){
   lblTemp.style.color = "#000000"
   lblTemp1.className = ""
   lblTemp1.style.color = "#000000"
-    lblTemp2.className = ""
+  lblTemp2.className = ""
   lblTemp2.style.color = "#000000"
-    lblTemp3.className = ""
+  lblTemp3.className = ""
   lblTemp3.style.color = "#000000"
-    lblTemp4.className = ""
+  lblTemp4.className = ""
   lblTemp4.style.color = "#000000"
 }
 
@@ -76,29 +76,42 @@ lblMapView1.onclick=function(){
 
 
 let weather = ""
-const URL = "http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131"
 
-// API call that returns api data
-const getData = () => 
-       fetch(URL).then(response => response.json()).then(({weather}) => weather)
+// Cindy Nov 2021 api key: c515880619500d7f6d1e3731af1c40a7
+// team key:  ac52bdb5ac1a416cb87215350211711
+// URL: http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131
 
-// create a function to put the api data into the projects' global variable 'weather'
- function freeData(apiData) {
-     weather = apiData  
+ 
+let zipcode = 68178
+
+function getWeather() {
+  let Key = 'ac52bdb5ac1a416cb87215350211711'
+  fetch('http://api.weatherapi.com/v1/forecast.json?Key=' + Key + '&q=' + zipcode)  
+  .then(function(resp) { return resp.json() }) // Convert data to json
+  .then(function(data) {
+      freeData(data) 
+    })
+  .catch(function() {
+    // catch any errors
+  })
 }
-    
-//  ***Main Program *** //
 
-// call the API call function getData() to start the process
-getData().then(data => {
-    freeData(data)           // when getData() is done, call freeData with the api data that was returned
-    // console.log(data)
-    weather = data
-})
+function freeData(apiData) {
+    // just getting temp for proof of concept
+   console.log(`in freeData, temp is ${apiData.current.temp_f}`)
+    // put api data into global variable so can use in other forms
+    weather = apiData  
+}
 
-
-
-Weather.onshow=function(){
-  Label1.value = `The current weather is ${weather.location.name}`
+/* Weather.onshow=function(){
+  lblTemp1.value = weather.current.temp_f
 }
 */
+
+ query = "SELECT conditions from temperature where indexs = 1;"
+   
+   if (req.status == 200) {
+    results = JSON.parse(req.responseText)
+    lblCondition.value = query
+    }
+    

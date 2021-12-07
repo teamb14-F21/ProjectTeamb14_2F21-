@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblHours11",
   "labelStyle": "text",
-  "left": 139,
+  "left": 149,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 307,
-  "value": "Open Until",
+  "top": 309,
+  "value": "Open Until 1am",
   "width": "auto"
 }

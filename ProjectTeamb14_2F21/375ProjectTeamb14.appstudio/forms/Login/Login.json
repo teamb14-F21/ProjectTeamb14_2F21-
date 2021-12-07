@@ -63,6 +63,15 @@
         "Elements",
         "lblError.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Login",
+        "Elements",
+        "btnNewAccountCopy.json"
+      ]
     }
   ],
   "class": "",

@@ -19,11 +19,15 @@ btnLogin.onclick=function(){
       lblError.value = "Incorrect Username or Password, please try again!"
     else
         // CHANGE THE NEWACCOUNT FORM BELOW TO THE HOMEPAGE FORM
-        ChangeForm(NewAccount)
+        ChangeForm(ListView)
 }
 
 }
 
 btnNewAccount.onclick=function(){
   ChangeForm(NewAccount)
+}
+
+btnNewAccountCopy.onclick=function(){
+  ChangeForm(ForgotPassword)
 }
