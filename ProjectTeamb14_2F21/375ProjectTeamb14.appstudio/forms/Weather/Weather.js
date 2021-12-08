@@ -75,43 +75,18 @@ lblMapView1.onclick=function(){
 }
 
 
-let weather = ""
 
-// Cindy Nov 2021 api key: c515880619500d7f6d1e3731af1c40a7
-// team key:  ac52bdb5ac1a416cb87215350211711
-// URL: http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131
 
- 
-let zipcode = 68178
-
-function getWeather() {
-  let Key = 'ac52bdb5ac1a416cb87215350211711'
-  fetch('http://api.weatherapi.com/v1/forecast.json?Key=' + Key + '&q=' + zipcode)  
-  .then(function(resp) { return resp.json() }) // Convert data to json
-  .then(function(data) {
-      freeData(data) 
-    })
-  .catch(function() {
-    // catch any errors
-  })
-}
-
-function freeData(apiData) {
-    // just getting temp for proof of concept
-   console.log(`in freeData, temp is ${apiData.current.temp_f}`)
-    // put api data into global variable so can use in other forms
-    weather = apiData  
-}
-
-/* Weather.onshow=function(){
+ Weather.onshow=function(){
+ console.log(weather)
   lblTemp1.value = weather.current.temp_f
 }
-*/
 
+/*
  query = "SELECT conditions from temperature where indexs = 1;"
    
    if (req.status == 200) {
     results = JSON.parse(req.responseText)
     lblCondition.value = query
     }
-    
+    */

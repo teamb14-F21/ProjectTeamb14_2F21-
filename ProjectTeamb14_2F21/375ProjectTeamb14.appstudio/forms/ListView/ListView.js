@@ -1,8 +1,9 @@
+let weather
 
 
 sldrInterest = [] 
 
-
+/*
 ListView.onshow=function(){
   lblSaved.className = ""
   lblSaved.style.color = "#FFFFFF"
@@ -44,9 +45,9 @@ ListView.onshow=function(){
   lblInterestLevel1.style.color = "#000000"
   lblInterestLevel2.className = ""
   lblInterestLevel2.style.color = "#000000"
-  
-}
 
+}
+*/
 imgWeather.onclick=function(){
   ChangeForm(Weather)
 }
@@ -78,7 +79,45 @@ lblMapView.onclick=function(){
   ChangeForm(MapView)
 }
 
-
 sldrInterest.ontouchend=function(){
     ChangeForm(Saved)
 }
+
+
+
+// Cindy Nov 2021 api key: c515880619500d7f6d1e3731af1c40a7
+// team key:  ac52bdb5ac1a416cb87215350211711
+// URL: http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131
+
+ 
+let zipcode = 68178
+
+function getWeather() {
+  let Key = 'ac52bdb5ac1a416cb87215350211711'
+  fetch('http://api.weatherapi.com/v1/forecast.json?key=' + Key + '&q=' + zipcode)  
+  .then(function(resp) { return resp.json() }) // Convert data to json
+  .then(function(data) {
+      freeDataWeather(data) 
+    })
+  .catch(function() {
+    // catch any errors
+  })
+}
+
+function freeDataWeather(apiData) {
+    // just getting temp for proof of concept
+   console.log(`in freeData, temp is ${apiData.current.temp_f}`)
+    // put api data into global variable so can use in other forms
+    weather = apiData  
+}
+
+
+
+
+
+ListView.onshow=function(){
+getWeather()
+ lblBusName.value = yelper.business[0].name
+}
+
+
