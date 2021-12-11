@@ -17,7 +17,7 @@
   "height": 48,
   "hidden": "",
   "id": "imgWeatherIcon1",
-  "left": 12,
+  "left": 10,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -48,6 +48,6 @@
   "shape": "",
   "src": "nsb/images/192.png",
   "style": "",
-  "top": 210,
+  "top": 262,
   "width": 45
 }

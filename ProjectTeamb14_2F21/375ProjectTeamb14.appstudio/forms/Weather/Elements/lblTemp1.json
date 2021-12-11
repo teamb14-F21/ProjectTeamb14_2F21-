@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblTemp1",
   "labelStyle": "text",
-  "left": 198,
+  "left": 235,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 213,
+  "top": 265,
   "value": "Temp",
   "width": 82
 }

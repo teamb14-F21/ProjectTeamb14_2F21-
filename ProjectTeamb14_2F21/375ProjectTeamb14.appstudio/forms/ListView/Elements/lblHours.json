@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblHours",
   "labelStyle": "text",
-  "left": 162,
+  "left": 197,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 210,
+  "top": 148,
   "value": "Open Until 10pm",
   "width": "auto"
 }

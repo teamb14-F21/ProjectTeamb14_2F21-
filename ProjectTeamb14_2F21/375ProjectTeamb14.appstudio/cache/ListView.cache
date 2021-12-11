@@ -1,6 +1,4 @@
 let weather
-
-
 sldrInterest = [] 
 
 /*
@@ -94,7 +92,7 @@ let zipcode = 68178
 
 function getWeather() {
   let Key = 'ac52bdb5ac1a416cb87215350211711'
-  fetch('http://api.weatherapi.com/v1/forecast.json?key=' + Key + '&q=' + zipcode)  
+  fetch('http://api.weatherapi.com/v1/forecast.json?Key=ac52bdb5ac1a416cb87215350211711&q=68131&days=5')  
   .then(function(resp) { return resp.json() }) // Convert data to json
   .then(function(data) {
       freeDataWeather(data) 
@@ -114,10 +112,39 @@ function freeDataWeather(apiData) {
 
 
 
-
+/*
 ListView.onshow=function(){
 getWeather()
  lblBusName.value = yelper.business[0].name
 }
+*/
 
+ListView.onshow=function(){
+getWeather()
+console.log(`${yelper.businesses[0].name}`)
+ lblBusName.value = yelper.businesses[0].name
+ imgResult.src = yelper.businesses[0].image_url
+ lblLocation1.value = yelper.businesses[0].location.address1
+ lblRating.value = yelper.businesses[0].rating
+ lblHours.value = "(T): " + yelper.businesses[0].display_phone
+ lblPrice.value = "Price: " + yelper.businesses[0].price
+ lblCategory.value = "Category: " + yelper.businesses[0].categories[0].title
+ 
+ lblBusName1.value = yelper.businesses[1].name
+ imgResult1.src = yelper.businesses[1].image_url
+ lblLocation2.value = yelper.businesses[1].location.address1
+ lblRating1.value = yelper.businesses[1].rating
+ lblHours1.value = "(T): " + yelper.businesses[1].display_phone
+ lblPrice1.value = "Price: " + yelper.businesses[1].price
+ lblCategory1.value = "Category: " + yelper.businesses[1].categories[0].title
+ 
+ lblBusName2.value = yelper.businesses[2].name
+ imgResult2.src = yelper.businesses[2].image_url
+ lblLocation3.value = yelper.businesses[2].location.address1
+ lblRating2.value = yelper.businesses[2].rating
+ lblHours2.value = "(T): " + yelper.businesses[2].display_phone
+ lblPrice2.value = "Price: " + yelper.businesses[2].price
+ lblCategory2.value = "Category: " + yelper.businesses[2].categories[0].title
+ 
+}
 

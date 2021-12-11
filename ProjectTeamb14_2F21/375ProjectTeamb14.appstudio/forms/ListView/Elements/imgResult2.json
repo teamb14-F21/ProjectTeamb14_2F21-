@@ -17,7 +17,7 @@
   "height": 62,
   "hidden": "",
   "id": "imgResult2",
-  "left": 10,
+  "left": 0,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -48,6 +48,6 @@
   "shape": "",
   "src": "Images/mcdonaldslogo.png",
   "style": "",
-  "top": 384,
-  "width": 63
+  "top": 374,
+  "width": 72
 }

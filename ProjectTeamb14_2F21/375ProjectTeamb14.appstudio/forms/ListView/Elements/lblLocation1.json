@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblLocation1",
   "labelStyle": "text",
-  "left": 78,
+  "left": 90,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 210,
+  "top": 149,
   "value": "Saddle Creek",
   "width": "auto"
 }

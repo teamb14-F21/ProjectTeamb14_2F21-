@@ -97,33 +97,6 @@
         "forms",
         "ListView",
         "Elements",
-        "sldrInterest.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "ListView",
-        "Elements",
-        "sldrInterest1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "ListView",
-        "Elements",
-        "sldrInterest2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "ListView",
-        "Elements",
         "imgResult.json"
       ]
     },
@@ -143,15 +116,6 @@
         "ListView",
         "Elements",
         "imgResult2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "ListView",
-        "Elements",
-        "slctFilters.json"
       ]
     },
     {
@@ -295,7 +259,7 @@
         "forms",
         "ListView",
         "Elements",
-        "lblInterestLevel.json"
+        "lblPrice.json"
       ]
     },
     {
@@ -304,7 +268,7 @@
         "forms",
         "ListView",
         "Elements",
-        "lblInterestLevel1.json"
+        "lblCategory.json"
       ]
     },
     {
@@ -313,7 +277,43 @@
         "forms",
         "ListView",
         "Elements",
-        "lblInterestLevel2.json"
+        "lblPrice1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblCategory1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "btnSave.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblPrice2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ListView",
+        "Elements",
+        "lblCategory2.json"
       ]
     }
   ],

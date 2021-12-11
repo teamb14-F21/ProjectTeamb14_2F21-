@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblBusName2",
   "labelStyle": "text",
-  "left": 74,
+  "left": 87,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 383,
+  "top": 363,
   "value": "McDonalds",
   "width": "auto"
 }

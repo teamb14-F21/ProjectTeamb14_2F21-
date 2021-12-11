@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblBusName1",
   "labelStyle": "text",
-  "left": 73,
+  "left": 87,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 284,
+  "top": 240,
   "value": "Qdoba",
   "width": "auto"
 }

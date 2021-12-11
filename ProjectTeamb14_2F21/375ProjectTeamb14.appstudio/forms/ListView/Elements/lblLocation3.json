@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblLocation3",
   "labelStyle": "text",
-  "left": 82,
+  "left": 94,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 409,
+  "top": 393,
   "value": "Dodge St",
   "width": "auto"
 }

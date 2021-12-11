@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "btnNewAccount",
   "labelStyle": "text",
-  "left": 49,
+  "left": 50,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 393,
+  "top": 394,
   "value": "New Here? Create an Account!",
   "width": "auto"
 }

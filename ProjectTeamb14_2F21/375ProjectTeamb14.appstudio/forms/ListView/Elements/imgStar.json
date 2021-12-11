@@ -17,7 +17,7 @@
   "height": 24,
   "hidden": "",
   "id": "imgStar",
-  "left": 81,
+  "left": 83,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -48,6 +48,6 @@
   "shape": "",
   "src": "Images/Star.png",
   "style": "",
-  "top": 229,
+  "top": 167,
   "width": 26
 }

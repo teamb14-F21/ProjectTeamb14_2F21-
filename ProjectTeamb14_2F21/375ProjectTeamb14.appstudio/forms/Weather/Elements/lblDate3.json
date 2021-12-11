@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblDate3",
   "labelStyle": "text",
-  "left": 58,
+  "left": 56,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 276,
+  "top": 341,
   "value": "Date",
   "width": "auto"
 }

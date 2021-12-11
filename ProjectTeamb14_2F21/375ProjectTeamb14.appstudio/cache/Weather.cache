@@ -17,30 +17,19 @@ Weather.onshow=function(){
   lblDate2.style.color = "#000000"
   lblDate3.className = ""
   lblDate3.style.color = "#000000"
-  lblDate4.className = ""
-  lblDate4.style.color = "#000000"
-  lblDate5.className = ""
-  lblDate5.style.color = "#000000"
   lblCondition.className = ""
   lblCondition.style.color = "#000000"
   lblCondition1.className = ""
   lblCondition1.style.color = "#000000"
   lblCondition2.className = ""
   lblCondition2.style.color = "#000000"
-  lblCondition3.className = ""
-  lblCondition3.style.color = "#000000"
-  lblCondition4.className = ""
-  lblCondition4.style.color = "#000000"
   lblTemp.className = ""
   lblTemp.style.color = "#000000"
   lblTemp1.className = ""
   lblTemp1.style.color = "#000000"
   lblTemp2.className = ""
   lblTemp2.style.color = "#000000"
-  lblTemp3.className = ""
-  lblTemp3.style.color = "#000000"
-  lblTemp4.className = ""
-  lblTemp4.style.color = "#000000"
+
 }
 
 imgWeather1.onclick=function(){
@@ -74,12 +63,23 @@ lblMapView1.onclick=function(){
   ChangeForm(MapView)
 }
 
-
-
-
  Weather.onshow=function(){
  console.log(weather)
-  lblTemp1.value = weather.current.temp_f
+
+ imgWeatherIcon.src = weather.forecast.forecastday[0].day.condition.icon
+  lblDate1.value = weather.forecast.forecastday[0].date
+  lblTemp.value = weather.forecast.forecastday[0].day.avgtemp_f + "°F"
+  lblCondition.value = weather.forecast.forecastday[0].day.condition.text
+  
+  imgWeatherIcon1.src = weather.forecast.forecastday[1].day.condition.icon
+  lblDate2.value = weather.forecast.forecastday[1].date
+  lblTemp1.value = weather.forecast.forecastday[1].day.avgtemp_f + "°F"
+  lblCondition1.value = weather.forecast.forecastday[1].day.condition.text
+  
+  imgWeatherIcon2.src = weather.forecast.forecastday[2].day.condition.icon
+  lblDate3.value = weather.forecast.forecastday[2].date
+  lblTemp2.value = weather.forecast.forecastday[2].day.avgtemp_f + "°F"
+  lblCondition2.value = weather.forecast.forecastday[2].day.condition.text
 }
 
 /*

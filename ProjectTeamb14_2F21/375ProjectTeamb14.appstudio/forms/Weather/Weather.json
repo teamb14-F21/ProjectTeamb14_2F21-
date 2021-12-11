@@ -142,24 +142,6 @@
         "forms",
         "Weather",
         "Elements",
-        "imgWeatherIcon3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "imgWeatherIcon4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
         "lblDate2.json"
       ]
     },
@@ -170,24 +152,6 @@
         "Weather",
         "Elements",
         "lblDate3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "lblDate4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "lblDate5.json"
       ]
     },
     {
@@ -223,24 +187,6 @@
         "forms",
         "Weather",
         "Elements",
-        "lblCondition3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "lblCondition4.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
         "lblTemp.json"
       ]
     },
@@ -260,24 +206,6 @@
         "Weather",
         "Elements",
         "lblTemp2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "lblTemp3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Weather",
-        "Elements",
-        "lblTemp4.json"
       ]
     }
   ],

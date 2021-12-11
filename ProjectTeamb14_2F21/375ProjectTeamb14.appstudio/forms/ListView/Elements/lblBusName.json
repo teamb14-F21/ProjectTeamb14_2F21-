@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblBusName",
   "labelStyle": "text",
-  "left": 74,
+  "left": 83,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 187,
+  "top": 119,
   "value": "Chipotle",
   "width": "auto"
 }

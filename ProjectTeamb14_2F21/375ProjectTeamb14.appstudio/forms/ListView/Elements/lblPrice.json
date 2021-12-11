@@ -17,9 +17,9 @@
   "fontWeight": "",
   "height": "auto",
   "hidden": "",
-  "id": "lblDate4",
+  "id": "lblPrice",
   "labelStyle": "text",
-  "left": 58,
+  "left": 150,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 339,
-  "value": "Date",
+  "top": 169,
+  "value": "Label",
   "width": "auto"
 }

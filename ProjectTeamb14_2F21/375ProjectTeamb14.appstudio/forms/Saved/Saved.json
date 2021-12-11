@@ -151,15 +151,6 @@
         "forms",
         "Saved",
         "Elements",
-        "slctFilters1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Saved",
-        "Elements",
         "lblBusName3.json"
       ]
     },

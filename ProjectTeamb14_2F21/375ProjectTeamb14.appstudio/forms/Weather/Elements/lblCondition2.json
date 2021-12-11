@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblCondition2",
   "labelStyle": "text",
-  "left": 58,
+  "left": 55,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 297,
+  "top": 365,
   "value": "Condition",
   "width": "auto"
 }
